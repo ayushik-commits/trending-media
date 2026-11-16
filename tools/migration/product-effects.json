@@ -1,0 +1,996 @@
+{
+ "source": "Framer project 'product pages' (https://cherished-kiwi-803995.framer.app), effects read from the project tree via the Framer MCP",
+ "legend": "rect = absolute [x, y, width, height] at the 1200px breakpoint; appear: t trigger (mount | scroll = scroll direction), x/y offset in px, o start opacity, d duration s, dl delay s, b spring bounce or e bezier; tap/hover: s scale, x offset",
+ "routes": [
+  {
+   "framer": "/personal-brand/before-personal-brand",
+   "local": "/personal-brand/alert",
+   "title": "Personal Brand: Alert",
+   "effects": 6
+  },
+  {
+   "framer": "/personal-brand/personal-brand",
+   "local": "/personal-brand/product",
+   "title": "Personal Brand: Product",
+   "effects": 0
+  },
+  {
+   "framer": "/personal-brand/pb-2",
+   "local": "/personal-brand/address",
+   "title": "Personal Brand: Address",
+   "effects": 1
+  },
+  {
+   "framer": "/personal-brand/pb-3",
+   "local": "/personal-brand/pay",
+   "title": "Personal Brand: Pay",
+   "effects": 2
+  },
+  {
+   "framer": "/status-and-consumer/before-status-consumer",
+   "local": "/consumer-culture/alert",
+   "title": "Consumer Culture: Alert",
+   "effects": 7
+  },
+  {
+   "framer": "/status-and-consumer/status-consumer",
+   "local": "/consumer-culture/product",
+   "title": "Consumer Culture: Product",
+   "effects": 4
+  },
+  {
+   "framer": "/status-and-consumer/sc-2",
+   "local": "/consumer-culture/address",
+   "title": "Consumer Culture: Address",
+   "effects": 1
+  },
+  {
+   "framer": "/status-and-consumer/sc-3",
+   "local": "/consumer-culture/pay",
+   "title": "Consumer Culture: Pay",
+   "effects": 2
+  },
+  {
+   "framer": "/lifestyle-optimisation/before-lifestyle-optimisation",
+   "local": "/life-style/alert",
+   "title": "Life Style: Alert",
+   "effects": 8
+  },
+  {
+   "framer": "/lifestyle-optimisation/lifestyle-optimisation",
+   "local": "/life-style/product",
+   "title": "Life Style: Product",
+   "effects": 4
+  },
+  {
+   "framer": "/lifestyle-optimisation/lo-2",
+   "local": "/life-style/address",
+   "title": "Life Style: Address",
+   "effects": 1,
+   "links": {
+    "/personal-brand/pb-3": "/lifestyle-optimisation/lo-3"
+   }
+  },
+  {
+   "framer": "/lifestyle-optimisation/lo-3",
+   "local": "/life-style/pay",
+   "title": "Life Style: Pay",
+   "effects": 9
+  },
+  {
+   "framer": "/glowup-potential/before-golwup-potential",
+   "local": "/glowup-tips/alert",
+   "title": "Glowup Tips: Alert",
+   "effects": 6
+  },
+  {
+   "framer": "/glowup-potential/glow-up-potential",
+   "local": "/glowup-tips/product",
+   "title": "Glowup Tips: Product",
+   "effects": 4
+  },
+  {
+   "framer": "/glowup-potential/gp-2",
+   "local": "/glowup-tips/address",
+   "title": "Glowup Tips: Address",
+   "effects": 1
+  },
+  {
+   "framer": "/glowup-potential/gp-3",
+   "local": "/glowup-tips/pay",
+   "title": "Glowup Tips: Pay",
+   "effects": 2
+  },
+  {
+   "framer": "/niche-credibility/before-niche-credibility",
+   "local": "/niche-credibility/alert",
+   "title": "Niche Credibility: Alert",
+   "effects": 7
+  },
+  {
+   "framer": "/niche-credibility/niche-credibility",
+   "local": "/niche-credibility/product",
+   "title": "Niche Credibility: Product",
+   "effects": 5
+  },
+  {
+   "framer": "/niche-credibility/nc-2",
+   "local": "/niche-credibility/address",
+   "title": "Niche Credibility: Address",
+   "effects": 1
+  },
+  {
+   "framer": "/niche-credibility/nc-3",
+   "local": "/niche-credibility/pay",
+   "title": "Niche Credibility: Pay",
+   "effects": 2
+  },
+  {
+   "framer": "/final-page",
+   "local": "/final-page",
+   "title": "Thank you",
+   "effects": 3
+  },
+  {
+   "framer": "/credits",
+   "local": "/credits",
+   "title": "Credits",
+   "effects": 10
+  }
+ ],
+ "effectSets": [
+  [
+   {
+    "rect": [
+     1,
+     828,
+     1877,
+     287
+    ],
+    "appear": {
+     "t": "scroll",
+     "x": -674,
+     "y": 0,
+     "o": 1,
+     "d": 6,
+     "dl": 0.7,
+     "b": 0.2
+    }
+   },
+   {
+    "rect": [
+     -27,
+     -128,
+     1253,
+     311
+    ],
+    "appear": {
+     "t": "mount",
+     "x": 0,
+     "y": -150,
+     "o": 1,
+     "d": 2,
+     "dl": 0,
+     "b": 0.2
+    }
+   },
+   {
+    "rect": [
+     714,
+     1268,
+     347,
+     76
+    ],
+    "tap": {
+     "s": 0.9,
+     "x": 0,
+     "d": 0.4,
+     "b": 0.2
+    }
+   },
+   {
+    "rect": [
+     712,
+     1182,
+     350,
+     63
+    ],
+    "tap": {
+     "s": 0.9,
+     "x": 0,
+     "d": 0.4,
+     "b": 0.2
+    }
+   },
+   {
+    "rect": [
+     340,
+     610,
+     514,
+     176
+    ],
+    "appear": {
+     "t": "mount",
+     "x": 0,
+     "y": 0,
+     "o": 0,
+     "d": 1.5,
+     "dl": 0.3,
+     "e": [
+      0.44,
+      0,
+      0.56,
+      1
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "rect": [
+     0,
+     0,
+     1200,
+     672
+    ],
+    "appear": {
+     "t": "mount",
+     "x": 0,
+     "y": -150,
+     "o": 0,
+     "d": 2,
+     "dl": 0.2,
+     "b": 0
+    }
+   },
+   {
+    "rect": [
+     103,
+     371,
+     406,
+     157
+    ],
+    "appear": {
+     "t": "mount",
+     "x": 0,
+     "y": 0,
+     "o": 0,
+     "d": 0.7,
+     "dl": 1.6,
+     "b": 0
+    }
+   },
+   {
+    "rect": [
+     747,
+     535,
+     293,
+     53
+    ],
+    "tap": {
+     "s": 0.9,
+     "x": 0,
+     "d": 0.4,
+     "b": 0.2
+    }
+   }
+  ],
+  [
+   {
+    "rect": [
+     459,
+     573,
+     282,
+     51
+    ],
+    "appear": {
+     "t": "mount",
+     "x": 0,
+     "y": 0,
+     "o": 0,
+     "d": 0.05,
+     "dl": 4,
+     "b": 0.2
+    }
+   },
+   {
+    "rect": [
+     713,
+     60,
+     22,
+     22
+    ],
+    "appear": {
+     "t": "mount",
+     "x": 0,
+     "y": 0,
+     "o": 0,
+     "d": 0.05,
+     "dl": 4,
+     "b": 0.2
+    }
+   }
+  ],
+  [
+   {
+    "rect": [
+     339,
+     242,
+     530,
+     286
+    ],
+    "appear": {
+     "t": "mount",
+     "x": 0,
+     "y": -150,
+     "o": 0,
+     "d": 3.5,
+     "dl": 0,
+     "b": 0.2
+    }
+   },
+   {
+    "rect": [
+     344,
+     343,
+     82,
+     86
+    ],
+    "hover": {
+     "s": 1.1,
+     "d": 0.4,
+     "b": 0.2
+    }
+   },
+   {
+    "rect": [
+     378,
+     300,
+     137,
+     173
+    ],
+    "hover": {
+     "s": 1.2,
+     "d": 0.4,
+     "b": 0.2
+    }
+   },
+   {
+    "rect": [
+     487,
+     339,
+     129,
+     138
+    ],
+    "hover": {
+     "s": 1.1,
+     "d": 0.4,
+     "b": 0.2
+    }
+   },
+   {
+    "rect": [
+     555,
+     341,
+     108,
+     132
+    ],
+    "hover": {
+     "s": 1.2,
+     "d": 0.4,
+     "b": 0.2
+    }
+   },
+   {
+    "rect": [
+     741,
+     333,
+     130,
+     127
+    ],
+    "hover": {
+     "s": 1.2,
+     "d": 0.4,
+     "b": 0.2
+    }
+   },
+   {
+    "rect": [
+     657,
+     324,
+     99,
+     122
+    ],
+    "hover": {
+     "s": 1.3,
+     "d": 0.4,
+     "b": 0.2
+    }
+   },
+   {
+    "rect": [
+     950,
+     26,
+     218,
+     33
+    ],
+    "tap": {
+     "s": 0.9,
+     "x": 0,
+     "d": 0.4,
+     "b": 0.2
+    }
+   }
+  ],
+  [
+   {
+    "rect": [
+     -10,
+     842,
+     2292,
+     287
+    ],
+    "appear": {
+     "t": "scroll",
+     "x": -436,
+     "y": 0,
+     "o": 1,
+     "d": 2,
+     "dl": 0.7,
+     "b": 0.2
+    }
+   },
+   {
+    "rect": [
+     -27,
+     -28,
+     1253,
+     311
+    ],
+    "appear": {
+     "t": "mount",
+     "x": 0,
+     "y": -150,
+     "o": 1,
+     "d": 2,
+     "dl": 0,
+     "b": 0.2
+    }
+   },
+   {
+    "rect": [
+     714,
+     1268,
+     347,
+     76
+    ],
+    "tap": {
+     "s": 0.9,
+     "x": 0,
+     "d": 0.4,
+     "b": 0.2
+    }
+   },
+   {
+    "rect": [
+     712,
+     1182,
+     350,
+     63
+    ],
+    "tap": {
+     "s": 0.9,
+     "x": 0,
+     "d": 0.4,
+     "b": 0.2
+    }
+   },
+   {
+    "rect": [
+     340,
+     612,
+     514,
+     194
+    ],
+    "appear": {
+     "t": "mount",
+     "x": 0,
+     "y": 0,
+     "o": 0,
+     "d": 1.5,
+     "dl": 0.3,
+     "b": 0.2
+    }
+   }
+  ],
+  [
+   {
+    "rect": [
+     -10,
+     842,
+     2292,
+     287
+    ],
+    "appear": {
+     "t": "scroll",
+     "x": -436,
+     "y": 0,
+     "o": 1,
+     "d": 2,
+     "dl": 0.7,
+     "b": 0.2
+    }
+   },
+   {
+    "rect": [
+     -27,
+     -28,
+     1253,
+     311
+    ],
+    "appear": {
+     "t": "mount",
+     "x": 0,
+     "y": -150,
+     "o": 1,
+     "d": 2,
+     "dl": 0,
+     "b": 0.2
+    }
+   },
+   {
+    "rect": [
+     714,
+     1268,
+     347,
+     76
+    ],
+    "tap": {
+     "s": 0.9,
+     "x": 0,
+     "d": 0.4,
+     "b": 0.2
+    }
+   },
+   {
+    "rect": [
+     712,
+     1182,
+     350,
+     63
+    ],
+    "tap": {
+     "s": 0.9,
+     "x": 0,
+     "d": 0.4,
+     "b": 0.2
+    }
+   },
+   {
+    "rect": [
+     352,
+     614,
+     514,
+     194
+    ],
+    "appear": {
+     "t": "mount",
+     "x": 0,
+     "y": 0,
+     "o": 0,
+     "d": 1.5,
+     "dl": 0.3,
+     "b": 0.2
+    }
+   }
+  ],
+  [
+   {
+    "rect": [
+     -67,
+     -7,
+     1311,
+     716
+    ],
+    "appear": {
+     "t": "mount",
+     "x": 0,
+     "y": 0,
+     "o": 0,
+     "d": 0.4,
+     "dl": 0.1,
+     "b": 0.2
+    }
+   },
+   {
+    "rect": [
+     -41,
+     0,
+     1217,
+     1027
+    ],
+    "appear": {
+     "t": "mount",
+     "x": -402,
+     "y": 0,
+     "o": 0,
+     "d": 1.5,
+     "dl": 0.2,
+     "b": 0.2
+    }
+   },
+   {
+    "rect": [
+     34,
+     78,
+     1146,
+     836
+    ],
+    "appear": {
+     "t": "mount",
+     "x": 0,
+     "y": 0,
+     "o": 0,
+     "d": 0.4,
+     "dl": 0,
+     "b": 0.1
+    }
+   },
+   {
+    "rect": [
+     54,
+     226,
+     599,
+     115
+    ],
+    "appear": {
+     "t": "mount",
+     "x": 0,
+     "y": -150,
+     "o": 0,
+     "d": 2.2,
+     "dl": 0.7,
+     "b": 0.2
+    }
+   },
+   {
+    "rect": [
+     115,
+     395,
+     488,
+     153
+    ],
+    "appear": {
+     "t": "mount",
+     "x": 0,
+     "y": 0,
+     "o": 0,
+     "d": 1,
+     "dl": 3,
+     "b": 0.2
+    }
+   },
+   {
+    "rect": [
+     200,
+     486,
+     328,
+     62
+    ],
+    "tap": {
+     "s": 0.9,
+     "x": 0,
+     "d": 0.4,
+     "b": 0.2
+    }
+   },
+   {
+    "rect": [
+     -2,
+     89,
+     1702,
+     148
+    ],
+    "tap": {
+     "s": 1.05,
+     "x": 35,
+     "d": 0.4,
+     "b": 0.3
+    }
+   }
+  ],
+  [
+   {
+    "rect": [
+     -2,
+     0,
+     1202,
+     672
+    ],
+    "appear": {
+     "t": "mount",
+     "x": 0,
+     "y": 0,
+     "o": 0,
+     "d": 0.4,
+     "dl": 0.1,
+     "b": 0.2
+    }
+   },
+   {
+    "rect": [
+     -41,
+     0,
+     1217,
+     1027
+    ],
+    "appear": {
+     "t": "mount",
+     "x": -402,
+     "y": 0,
+     "o": 0,
+     "d": 1.5,
+     "dl": 0.2,
+     "b": 0.2
+    }
+   },
+   {
+    "rect": [
+     34,
+     78,
+     1146,
+     836
+    ],
+    "appear": {
+     "t": "mount",
+     "x": 0,
+     "y": 0,
+     "o": 0,
+     "d": 0.4,
+     "dl": 0,
+     "b": 0.1
+    }
+   },
+   {
+    "rect": [
+     54,
+     226,
+     599,
+     115
+    ],
+    "appear": {
+     "t": "mount",
+     "x": 0,
+     "y": -150,
+     "o": 0,
+     "d": 2.2,
+     "dl": 0.7,
+     "b": 0.2
+    }
+   },
+   {
+    "rect": [
+     115,
+     395,
+     488,
+     153
+    ],
+    "appear": {
+     "t": "mount",
+     "x": 0,
+     "y": 0,
+     "o": 0,
+     "d": 1,
+     "dl": 3,
+     "b": 0.2
+    }
+   },
+   {
+    "rect": [
+     200,
+     486,
+     328,
+     62
+    ],
+    "tap": {
+     "s": 0.9,
+     "x": 0,
+     "d": 0.4,
+     "b": 0.2
+    }
+   },
+   {
+    "rect": [
+     -2,
+     89,
+     1702,
+     148
+    ],
+    "tap": {
+     "s": 1.05,
+     "x": 35,
+     "d": 0.4,
+     "b": 0.3
+    }
+   }
+  ],
+  [
+   {
+    "rect": [
+     -67,
+     -7,
+     1311,
+     716
+    ],
+    "appear": {
+     "t": "mount",
+     "x": 0,
+     "y": 0,
+     "o": 0,
+     "d": 0.4,
+     "dl": 0.1,
+     "b": 0.2
+    }
+   },
+   {
+    "rect": [
+     -41,
+     0,
+     1217,
+     1027
+    ],
+    "appear": {
+     "t": "mount",
+     "x": -402,
+     "y": 0,
+     "o": 0,
+     "d": 1.5,
+     "dl": 0.2,
+     "b": 0.2
+    }
+   },
+   {
+    "rect": [
+     34,
+     78,
+     1146,
+     836
+    ],
+    "appear": {
+     "t": "mount",
+     "x": 0,
+     "y": 0,
+     "o": 0,
+     "d": 0.4,
+     "dl": 0,
+     "b": 0.1
+    }
+   },
+   {
+    "rect": [
+     54,
+     226,
+     625,
+     117
+    ],
+    "appear": {
+     "t": "mount",
+     "x": 0,
+     "y": -150,
+     "o": 0,
+     "d": 2.2,
+     "dl": 0.7,
+     "b": 0.2
+    }
+   },
+   {
+    "rect": [
+     115,
+     395,
+     488,
+     153
+    ],
+    "appear": {
+     "t": "mount",
+     "x": 0,
+     "y": 0,
+     "o": 0,
+     "d": 1,
+     "dl": 3,
+     "b": 0.2
+    }
+   },
+   {
+    "rect": [
+     200,
+     486,
+     328,
+     62
+    ],
+    "tap": {
+     "s": 0.9,
+     "x": 0,
+     "d": 0.4,
+     "b": 0.2
+    }
+   },
+   {
+    "rect": [
+     -2,
+     89,
+     1702,
+     148
+    ],
+    "tap": {
+     "s": 1.05,
+     "x": 35,
+     "d": 0.4,
+     "b": 0.3
+    }
+   }
+  ],
+  [
+   {
+    "rect": [
+     459,
+     573,
+     282,
+     51
+    ],
+    "appear": {
+     "t": "mount",
+     "x": 0,
+     "y": 0,
+     "o": 0,
+     "d": 0.05,
+     "dl": 4,
+     "b": 0.2
+    }
+   },
+   {
+    "rect": [
+     733,
+     60,
+     22,
+     22
+    ],
+    "appear": {
+     "t": "mount",
+     "x": 0,
+     "y": 0,
+     "o": 0,
+     "d": 0.05,
+     "dl": 4,
+     "b": 0.2
+    }
+   }
+  ],
+  []
+ ],
+ "chapters": {
+  "source": "https://resilient-windows-952042.framer.app",
+  "settle": 13500,
+  "pages": [
+   {
+    "framer": "/personal-brand",
+    "slug": "personal-brand"
+   },
+   {
+    "framer": "/consumer-culture",
+    "slug": "consumer-culture"
+   },
+   {
+    "framer": "/glowup-tips",
+    "slug": "glowup-tips"
+   },
+   {
+    "framer": "/life-style",
+    "slug": "life-style"
+   },
+   {
+    "framer": "/niche-credibility",
+    "slug": "niche-credibility"
+   }
+  ]
+ }
+}

@@ -1,0 +1,115 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "title": "Trending Media",
+      "text": "Are you the trendiest version of yourself?",
+      "images": [],
+      "videos": [
+        {
+          "src": "http://127.0.0.1:3000/assets/videos/Dwt4hHpeuqmRWJWH6g0xf1uN0s.mp4",
+          "state": 4
+        }
+      ],
+      "height": 1688,
+      "errors": [],
+      "external": []
+    },
+    {
+      "path": "/personal-brand",
+      "title": "Personal Brand | Trending Media",
+      "text": "Personal Brand",
+      "images": [],
+      "videos": [
+        {
+          "src": "http://127.0.0.1:3000/assets/videos/YZzJ6sq3wTchLopEaf4oCUk.mp4",
+          "state": 4
+        },
+        {
+          "src": "http://127.0.0.1:3000/assets/videos/tPgqczf42mCYnQcISgpyfNW4c.mp4",
+          "state": 4
+        }
+      ],
+      "height": 900,
+      "errors": [],
+      "external": []
+    },
+    {
+      "path": "/life-style",
+      "title": "Life Style | Trending Media",
+      "text": "Life Style",
+      "images": [],
+      "videos": [
+        {
+          "src": "http://127.0.0.1:3000/assets/videos/YZzJ6sq3wTchLopEaf4oCUk.mp4",
+          "state": 4
+        },
+        {
+          "src": "http://127.0.0.1:3000/assets/videos/tPgqczf42mCYnQcISgpyfNW4c.mp4",
+          "state": 4
+        }
+      ],
+      "height": 900,
+      "errors": [],
+      "external": []
+    },
+    {
+      "path": "/consumer-culture",
+      "title": "Consumer Culture | Trending Media",
+      "text": "Consumer Culture",
+      "images": [],
+      "videos": [
+        {
+          "src": "http://127.0.0.1:3000/assets/videos/bp74XTdQ26okzTl3EBMQgWUyKM.mp4",
+          "state": 4
+        },
+        {
+          "src": "http://127.0.0.1:3000/assets/videos/tPgqczf42mCYnQcISgpyfNW4c.mp4",
+          "state": 4
+        }
+      ],
+      "height": 900,
+      "errors": [],
+      "external": []
+    },
+    {
+      "path": "/glowup-tips",
+      "title": "Glowup Tips | Trending Media",
+      "text": "Glowup Tips",
+      "images": [],
+      "videos": [
+        {
+          "src": "http://127.0.0.1:3000/assets/videos/Iwxl1dq9xHqckZDmYc98r533vg.mp4",
+          "state": 4
+        },
+        {
+          "src": "http://127.0.0.1:3000/assets/videos/tPgqczf42mCYnQcISgpyfNW4c.mp4",
+          "state": 4
+        }
+      ],
+      "height": 900,
+      "errors": [],
+      "external": []
+    },
+    {
+      "path": "/niche-credibility",
+      "title": "Niche Credibility | Trending Media",
+      "text": "Niche Credibility",
+      "images": [],
+      "videos": [
+        {
+          "src": "http://127.0.0.1:3000/assets/videos/XNiJKQK6cAvBlwij85AiinamQ.mp4",
+          "state": 4
+        },
+        {
+          "src": "http://127.0.0.1:3000/assets/videos/tPgqczf42mCYnQcISgpyfNW4c.mp4",
+          "state": 4
+        }
+      ],
+      "height": 900,
+      "errors": [],
+      "external": []
+    }
+  ],
+  "interactions": "PASS cookie navigation /personal-brand\nPASS cookie navigation /consumer-culture\nPASS cookie navigation /glowup-tips\nPASS cookie navigation /life-style\nPASS cookie navigation /niche-credibility\nchapter after start {\"phase\":\"playing\",\"playing\":true}\nchapter after ending complete\nmobile {\"viewport\":390,\"width\":390,\"broken\":[]}\nexceptions []\n"
+}

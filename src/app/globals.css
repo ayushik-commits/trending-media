@@ -1,0 +1,35 @@
+@import "tailwindcss" source("../");
+
+@theme {
+  --color-trend-yellow: #ffcc00;
+  --color-trend-blue: #405de6;
+  --color-trend-pink: #ff245b;
+  --font-sans: Arial, Helvetica, sans-serif;
+}
+
+html { background: var(--color-trend-yellow); }
+body { margin: 0; }
+button, a { -webkit-tap-highlight-color: transparent; }
+button:not(:disabled) { cursor: pointer; }
+
+/* Exported Framer product pages (src/components/ProductPage.tsx). */
+@font-face { font-family: Inter; src: url("/assets/fonts/InterVariable.latin-5EYCRJRY.woff2") format("woff2"); font-weight: 100 900; font-display: swap; }
+@keyframes layer-appear { from { opacity: var(--ao); translate: var(--ax) var(--ay); } }
+[data-scroll="down"] .layer-scroll { translate: var(--ax) var(--ay); }
+.layer-tap:active, .layer-hover:hover { scale: var(--s); translate: var(--tx) 0; }
+@media (prefers-reduced-motion: reduce) { [style*="layer-appear"] { animation-duration: 1ms !important; animation-delay: 0s !important; } }
+
+/* Home collage (HomeArtwork.tsx, generated): pieces react to hover; stickers can also be dragged and spring back.
+   Each piece carries its own values: --hs scale, --hr rotation, --hx/--hy offset, --ht spring timing. */
+.collage-piece {
+  --ox: 0px; --oy: 0px;
+  translate: calc(var(--drag-x, 0px) + var(--ox)) calc(var(--drag-y, 0px) + var(--oy));
+  /* ponytail: offsets and the spring-back use a fixed ease-out, not Framer's spring (stiffness 150, damping 30). */
+  transition: scale var(--ht, 0s), rotate var(--ht, 0s), translate 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.collage-piece:hover { --ox: var(--hx, 0px); --oy: var(--hy, 0px); scale: var(--hs, 1); rotate: var(--hr, 0deg); }
+.collage-piece.dragging { transition: scale var(--ht, 0s), rotate var(--ht, 0s); }
+/* Ribbons scroll one repeat (--rx) every --rt, forever. */
+@keyframes ribbon { to { translate: var(--rx) 0; } }
+.ribbon { animation: ribbon var(--rt) linear infinite; }
+@media (prefers-reduced-motion: reduce) { .collage-piece { transition: none; } .ribbon { animation: none; } }
