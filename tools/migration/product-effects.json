@@ -4,67 +4,67 @@
  "routes": [
   {
    "framer": "/personal-brand/before-personal-brand",
-   "local": "/personal-brand/alert",
+   "local": "/personal-brand/before-personal-brand",
    "title": "Personal Brand: Alert",
    "effects": 6
   },
   {
    "framer": "/personal-brand/personal-brand",
-   "local": "/personal-brand/product",
+   "local": "/personal-brand/personal-brand",
    "title": "Personal Brand: Product",
    "effects": 0
   },
   {
    "framer": "/personal-brand/pb-2",
-   "local": "/personal-brand/address",
+   "local": "/personal-brand/pb-2",
    "title": "Personal Brand: Address",
    "effects": 1
   },
   {
    "framer": "/personal-brand/pb-3",
-   "local": "/personal-brand/pay",
+   "local": "/personal-brand/pb-3",
    "title": "Personal Brand: Pay",
    "effects": 2
   },
   {
    "framer": "/status-and-consumer/before-status-consumer",
-   "local": "/consumer-culture/alert",
+   "local": "/status-and-consumer/before-status-consumer",
    "title": "Consumer Culture: Alert",
    "effects": 7
   },
   {
    "framer": "/status-and-consumer/status-consumer",
-   "local": "/consumer-culture/product",
+   "local": "/status-and-consumer/status-consumer",
    "title": "Consumer Culture: Product",
    "effects": 4
   },
   {
    "framer": "/status-and-consumer/sc-2",
-   "local": "/consumer-culture/address",
+   "local": "/status-and-consumer/sc-2",
    "title": "Consumer Culture: Address",
    "effects": 1
   },
   {
    "framer": "/status-and-consumer/sc-3",
-   "local": "/consumer-culture/pay",
+   "local": "/status-and-consumer/sc-3",
    "title": "Consumer Culture: Pay",
    "effects": 2
   },
   {
    "framer": "/lifestyle-optimisation/before-lifestyle-optimisation",
-   "local": "/life-style/alert",
+   "local": "/lifestyle-optimisation/before-lifestyle-optimisation",
    "title": "Life Style: Alert",
    "effects": 8
   },
   {
    "framer": "/lifestyle-optimisation/lifestyle-optimisation",
-   "local": "/life-style/product",
+   "local": "/lifestyle-optimisation/lifestyle-optimisation",
    "title": "Life Style: Product",
    "effects": 4
   },
   {
    "framer": "/lifestyle-optimisation/lo-2",
-   "local": "/life-style/address",
+   "local": "/lifestyle-optimisation/lo-2",
    "title": "Life Style: Address",
    "effects": 1,
    "links": {
@@ -73,55 +73,55 @@
   },
   {
    "framer": "/lifestyle-optimisation/lo-3",
-   "local": "/life-style/pay",
+   "local": "/lifestyle-optimisation/lo-3",
    "title": "Life Style: Pay",
    "effects": 9
   },
   {
    "framer": "/glowup-potential/before-golwup-potential",
-   "local": "/glowup-tips/alert",
+   "local": "/glowup-potential/before-golwup-potential",
    "title": "Glowup Tips: Alert",
    "effects": 6
   },
   {
    "framer": "/glowup-potential/glow-up-potential",
-   "local": "/glowup-tips/product",
+   "local": "/glowup-potential/glow-up-potential",
    "title": "Glowup Tips: Product",
    "effects": 4
   },
   {
    "framer": "/glowup-potential/gp-2",
-   "local": "/glowup-tips/address",
+   "local": "/glowup-potential/gp-2",
    "title": "Glowup Tips: Address",
    "effects": 1
   },
   {
    "framer": "/glowup-potential/gp-3",
-   "local": "/glowup-tips/pay",
+   "local": "/glowup-potential/gp-3",
    "title": "Glowup Tips: Pay",
    "effects": 2
   },
   {
    "framer": "/niche-credibility/before-niche-credibility",
-   "local": "/niche-credibility/alert",
+   "local": "/niche-credibility/before-niche-credibility",
    "title": "Niche Credibility: Alert",
    "effects": 7
   },
   {
    "framer": "/niche-credibility/niche-credibility",
-   "local": "/niche-credibility/product",
+   "local": "/niche-credibility/niche-credibility",
    "title": "Niche Credibility: Product",
    "effects": 5
   },
   {
    "framer": "/niche-credibility/nc-2",
-   "local": "/niche-credibility/address",
+   "local": "/niche-credibility/nc-2",
    "title": "Niche Credibility: Address",
    "effects": 1
   },
   {
    "framer": "/niche-credibility/nc-3",
-   "local": "/niche-credibility/pay",
+   "local": "/niche-credibility/nc-3",
    "title": "Niche Credibility: Pay",
    "effects": 2
   },
@@ -977,15 +977,15 @@
    },
    {
     "framer": "/consumer-culture",
-    "slug": "consumer-culture"
+    "slug": "status-and-consumer"
    },
    {
     "framer": "/glowup-tips",
-    "slug": "glowup-tips"
+    "slug": "glowup-potential"
    },
    {
     "framer": "/life-style",
-    "slug": "life-style"
+    "slug": "lifestyle-optimisation"
    },
    {
     "framer": "/niche-credibility",
