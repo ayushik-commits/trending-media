@@ -79,16 +79,17 @@ legacy-export/                Preserved previous static website and export tools
 - The artboard is scaled by CSS until scripts have loaded, so pages are the right
   size from the first paint.
 - **Accept cookies** uses React and Next.js navigation to choose one chapter:
-  `/personal-brand`, `/consumer-culture`, `/glowup-tips`, `/life-style`, or
-  `/niche-credibility`. Each has an independent **20% chance**. Repeats are valid.
+  `/personal-brand`, `/status-and-consumer`, `/glowup-potential`,
+  `/lifestyle-optimisation`, or `/niche-credibility`. Each has an independent **20% chance**. Repeats are valid.
 - The native buttons support mouse, touch, Enter and Space.
 - Chapters retain their original intro and main video files. Once the intro ends,
   click to start the chapter. Personal Brand and Life Style use the same video
   because that was their mapping in the published source.
 - When a chapter film ends it continues by itself into that chapter's purchase
   flow, exported from the Framer project "product pages":
-  `/<chapter>/alert` → `/<chapter>/product` → `/<chapter>/address` →
-  `/<chapter>/pay` → `/final-page` → `/credits` (new tab). The alert page uses the
+  Framer's own slugs, for example `/personal-brand/before-personal-brand` →
+  `/personal-brand/personal-brand` → `/personal-brand/pb-2` →
+  `/personal-brand/pb-3` → `/final-page` → `/credits` (new tab). The before page uses the
   film's final frame as its background, so the hand-over is seamless.
 - Product pages keep the original load-in animations, the image strip that slides
   with the scroll direction, the cover that changes on hover and the press

@@ -52,7 +52,11 @@ export function HomeExperience() {
   function acceptCookies() {
     if (navigating.current) return;
     navigating.current = true;
-    router.push(chooseDestination());
+    let history: string[] = [];
+    try { const saved = JSON.parse(localStorage.getItem("chapter-history") ?? "[]"); if (Array.isArray(saved)) history = saved; } catch {}
+    const destination = chooseDestination(history);
+    try { localStorage.setItem("chapter-history", JSON.stringify([...history, destination.slice(1)])); } catch {}
+    router.push(destination);
   }
 
   return (
