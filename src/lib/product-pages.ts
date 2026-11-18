@@ -9,7 +9,7 @@ export const productPages = data as unknown as Record<string, ProductPageData>;
 export const chapterPages = chapterData as unknown as Record<string, Pick<ProductPageData, "height" | "background" | "layers">>;
 
 /** The page a chapter film hands over to when it ends. */
-export const alertPath = (chapter: string) => `/${chapter}/alert`;
+export const alertPath = (chapter: string) => Object.keys(productPages).find(path => path.startsWith(`/${chapter}/before-`))!;
 
 /** Image files a page needs, so the page before it can warm them up. */
 export function pageImages(path: string): string[] {

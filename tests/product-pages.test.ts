@@ -11,9 +11,11 @@ const pages = read("product-pages.json"), chapterPages = read("chapter-pages.jso
 const every = (layers: Layer[]): Layer[] => layers.flatMap(layer => [layer, ...every(layer.children ?? [])]);
 const links = (layers: Layer[]): string[] => layers.flatMap(layer => [...(layer.href ? [layer.href] : []), ...links(layer.children ?? [])]);
 
-test("every chapter continues alert → product → address → pay → final page", () => {
+test("every chapter continues before → product → address → pay → final page", () => {
   for (const { slug } of chapters) {
-    const steps = ["alert", "product", "address", "pay"].map(step => `/${slug}/${step}`);
+    const steps = Object.keys(pages).filter(path => path.startsWith(`/${slug}/`));
+    assert.equal(steps.length, 4, `${slug} should have 4 pages`);
+    assert.ok(steps[0].includes("/before-"), `${slug} should start on its before page`);
     [...steps, "/final-page"].reduce((from, to) => {
       assert.ok(pages[from], `${from} is missing`);
       assert.ok(links(pages[from].layers).includes(to), `${from} does not link to ${to}`);
